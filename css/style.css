@@ -446,6 +446,12 @@ label {
 	margin-bottom: 6px;
 	display: inline-block;
 }
+/* 지도 */
+#map img{max-width: 60%; /* 이미지의 최대사이즈 */
+    width /***/: auto; /* only IE8 */
+    height: auto;
+    vertical-align: bottom;}
+
 /* Footer Section*/
 #footer {
 	background: #857c73;
